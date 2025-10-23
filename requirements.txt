@@ -1,5 +1,25 @@
-langchain
-langchain-groq
-pandas
-streamlit
-python-dotenv
+# Core Dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-groq>=0.1.0
+langchain-xai>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# Data Processing
+pandas>=2.0.0
+
+# LLM Integration
+sentence-transformers>=2.2.2
+
+# Vector Store
+faiss-cpu>=1.7.4
+
+# PDF Processing
+pypdf>=3.17.0
+
+# Web Framework
+streamlit>=1.30.0
+
+# Environment Management
+python-dotenv>=1.0.0
